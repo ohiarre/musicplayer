@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+    --color0: #EDAE49;
+    --color1: #D1495B;
+    --color3: #00798C;
+    --color4: #30638E;
+    --color5: #003D5B;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+    background-color: var(--color3);
+  max-height: 100vh;
+ color: var(--color0);
+  }
+
+  .music-box {
+    max-width: 400px;
+    height: 600px; 
+    background-color: #003D5B;
+    margin: 0 auto;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  .music-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .action-btn {
+    font-size: 20px;
+    border: none;
+    background-color: var(--color0);
+    color: var(--color1);
+    border-radius: 10px;
+  }
+
+  .action-btn:hover {
+    
+    background-color: var(--color1);
+    color: var(--color0);
+  }
+  
+  
+  .action-btn-big {
+    font-size: 30px;
+    /* border-radius: 10px; */
+    border: none;
+    padding: 5px;
+  }
+  
